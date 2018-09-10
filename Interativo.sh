@@ -25,7 +25,7 @@ BUSCA=$(grep $NOME $DIRETORIO) #Atribui o conteúdo da execução (grep $NOME $D
 echo -e "\tPesquisando o nome $NOME em $DIRETORIO"  # Imprimie a string (Pesquisando o nome     em       ) concatenada com o conteudo das Variáveis ($NOME e $DIRETORIO) na tela
 sleep 3     # Aguarda 3 segundos
 echo -e "\tResultado:"      # Imprime a string (Resultado:) na tela
-echo -e "\t  "$BUSCA"\n"    # Imprime o conteudo da variável BUSCA na tela
+echo -e "\t  "$BUSCA"\n"    # Imprime o conteudo da variável (BUSCA) na tela
 # \t (tab)
 # $ (retorna o valor de uma variável ou execução)
 
