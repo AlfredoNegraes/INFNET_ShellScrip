@@ -21,7 +21,6 @@ echo -e "\t Com o professor $PROFESSOR\n"     # Imprime string concatenada com a
 # \t (tab)
 
 
-
 # AUTORIZAR EXECUÇÃO:
 # chmod +x MeuPrimeiroScrip.sh
 
