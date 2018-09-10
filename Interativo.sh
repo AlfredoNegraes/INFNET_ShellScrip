@@ -31,7 +31,7 @@ echo -e "\t  "$BUSCA"\n"    # Imprime o conteudo da variável (BUSCA) na tela
 
 
 # AUTORIZAR EXECUÇÃO:
-# chmod +x MeuPrimeiroScrip.sh
+# chmod +x Interativo.sh
 
 # EXECUTAR:
-# ./MeuPrimeiroScrip.sh
+# ./Interativo.sh
