@@ -7,16 +7,16 @@
 
 clear #limpa a tela
 
-# VARIÁVEL
-PROFESSOR="Eduardo Silva Ramos"     # Atribuindo valor a variável
+# VARIÁVEIS
+PROFESSOR="Eduardo Silva Ramos"     # Atribui o valor (Eduardo Silva Ramo) a variável (PROFESSOR)
 
 # TÍTULO
-echo -e "Meu primeiro Script\n"     # Imprimindo string na tela
+echo -e "Meu primeiro Script\n"     # Imprime string (Meu primeiro Script) na tela
 # -e (permite o uso de caracteres de espciais)
 # \n (caracter especial de pulo de linha)
 
-echo -e "\t Feito em "$(date +%F)       # Imprime string concatenada com a data atual
-echo -e "\t Com o professor $PROFESSOR\n"     # Imprime string concatenada com a variável
+echo -e "\t Feito em "$(date +%F)       # Imprime string (Feito em) concatenada com a data atual (date +%F)
+echo -e "\t Com o professor $PROFESSOR\n"     # Imprime string (Com o professor ) concatenada com a variável (PROFESSOR)
 # $ (retorna o valor de uma variável ou execução)
 # \t (tab)
 
