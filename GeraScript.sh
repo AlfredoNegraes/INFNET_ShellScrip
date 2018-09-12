@@ -65,7 +65,7 @@ echo
             # LIBERAÇÃO PARA EXECUÇÃO DO SCRIPT
             chmod +x $DIRETORIO/$SCRIPT
             # ABERTURA PARA EDIÇÃO
-            vim +8 $DIRETORIO/$SCRIPT
+            vim -c start +8 $DIRETORIO/$SCRIPT
     else
         # SCRIPT PRESENTE
             # INTERAÇÃO DECISÃO
