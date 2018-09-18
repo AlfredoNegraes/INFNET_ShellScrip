@@ -22,7 +22,7 @@ Interacao() {
     ENTRADA=$(echo $RESPOSTA | tr -d ' ' | tr [:lower:] [:upper:])      # Remove os espacos e converte a string para letra maiuscula
     echo
 }
-# Gera Cabecalho  para o Script
+# Gera Cabecalho para o Script
 Cabecalho () {
     echo -e "#!$INTERPRETADOR" > "$DIRETORIO/$SCRIPT"
     echo >> "$DIRETORIO/$SCRIPT"
@@ -50,13 +50,13 @@ echo
     # TESTE - GARATIR EXISTÊNCIA DO DIRETÓRIO
     test -d "$DIRETORIO"
     if [ $? -eq 1 ]; then
-        mkdir $DIRETORIO &> /dev/null
+        mkdir $DIRETORIO &> /dev/null       # Cria o diretório (caso não exista).
     fi
 
     #TESTE - GARANTIR NOME NÃO-VAZIO
     test -n "$SCRIPT"
     if [ $? -eq 1 ]; then
-        SCRIPT="SEM-NOME"
+        SCRIPT="SEM-NOME"                   # Atribui um nome genérico (SEM-NOME) caso um nome não seja digitado.
     fi
 
     # NOME COMPLETO DO ARQUIVO
