@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # NOME: Gerador Base de ShellScrip v1.0
-# DESCRIÇÃO:    script interativo que gera arquivo (.sh) para edição e liberação de execução com
+# DESCRIÇÃO:    script interativo que gera arquivo (.sh) para edição e já com liberação de execução, contendo
 #               declaração do interpretador (bash) e cabeçalho básico (Autor, Data de Crição e Descrição)
 # AUTOR: Alfredo Negraes
 # SITE: https://github.com/AlfredoNegraes
